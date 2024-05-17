@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+:root{
+    --primary-color: #da2030
+    --secundary-collor: #639e9;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.ct-baner{
+    padding: 0 !important;
+}
+
+.baner{
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.after-logo{
+    background: radial-gradient(circle at center right, transparent 35px, #fff 0);
+
+    display: flex;
+    height: 40px;
+    width: 60px;
+}
+.before-logo{
+    background: radial-gradient(circle at center left, transparent 35px, #fff 0);
+
+    display: flex;
+    height: 40px;
+    width: 60px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.esp-header{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+}
+
+.header img{
+    width: 120px;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.menu-dest{
+    background-color: red;
+    color: #fff;
+    padding: 15px 25px;
+    top: 17px;
+    border-radius: 17px;
+    border: 3px solid #fff;
+}
+
+nav a{
+    color: #074470;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 1.2rem;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border: 3px solid #fff;
+    border-radius: 20px;
+    color: white !important;
+    padding: 15px 25px;
+}
+
+section{
+    padding: 1rem 5rem;
+}
+
+.onde-tem{
+   background-color: #007ad9;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 95vh;
+}
+
+.tracos{
+    height: 250px;
+    position: relative;
+    width: 100%;
+}
+
+h3{
+    color: #de1717;
+    font-size: 3rem;
+    font-family: "Rubik", sans-serif;    
+}
+
+.select{
+    display: block;
+    background-color: #2e528d8d;
+    font-size: 1.2rem;
+    padding: .5rem 0;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    margin-bottom: 1rem;
+    min-width: 250px;
+}
+
+.milk-onde-tem{
+    height: 110vh;
+    margin-top: 0;
+    z-index: 777;
+}
+
+.franqueado{
+    background-color: #edb14c;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 94vh;
+    padding: 0 !important;
+}
+
+.franqueado div{
+    width: 33%;
+}
+
+
+.arco-franq{
+    left: -1rem;
+    height: 110vh;
+    margin-top: 30vh;
+}
+
+.franq-titulo{
+    margin-top: -60px;
+    width: 350px;
+    margin-bottom: 3rem;
+}
+
+.ct-franq{
+    width: 340px;
+    padding-top: 2rem;
+    height: 94vh;
+    margin-right: -.5rem;
+}
+
+.img-fachada{
+    height: 96vh;
+    margin-bottom: 1.5rem;
+}
+
+.txt-franq{
+    color: #64270b;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.ct-btn-franq{
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 4rem 0;
+    margin-bottom: 2rem;
+    border: 4px solid #e02441 !important;
+    text-align: left;
+    width: 350px;
+    display: block;
+}
+
+.btn-franq{
+    color: #e02441;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.marca{
+    background-color: #f19398;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.txt-marca{
+    font-size: 1.5rem;
+    color: #a82d33;
+    flex: 0 0 auto;
+    padding: .5rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.casquinha{
+    height: 500px;
+}
+
+.lg-pb{
+    width: 180px;
+    margin-top: 100px;
+    margin-left: -250px;
+    z-index: 100;
+}
+
+.lg-cl{
+    z-index: 101;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: -40px;
+}
+
+.box-img{
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+    margin: 16px;
+}
+
+.btn-marca{
+    color: #a82d33;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    height: 26vh;
+}
+
+.logo-footer{
+    width: 120px;
+    margin-right: 1rem;
+}
+
+h4{
+    font-size: 1.8rem;
+    color: #0072bc;
+    font-weight: 900;
+}
+
+h5{
+    font-size: 1.8;
+    color: #0072bc;
+    font-weight: 900;
+}
+
+footer p{
+    color: #788790;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+    
+}
+
+.d-flex-img{
+    margin-right: .5rem;
+}
+
+.ct-footer{
+    margin-left: 2rem;
+}
+
+.ct-footer a{
+    color: #788790;
+    text-decoration: none;
+    display: flex;
+}
+
+
+
+
+
+
